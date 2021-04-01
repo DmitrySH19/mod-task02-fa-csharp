@@ -25,7 +25,7 @@ public class FA1
       public State b = new State()
       {
           Name = "b",
-          IsAcceptState = false,
+          IsAcceptState = true,
           Transitions = new Dictionary<char, State>()
       };
       public State c = new State()
@@ -65,7 +65,7 @@ public class FA2
       public static State a = new State()
       {
           Name = "a",
-          IsAcceptState = false,
+          IsAcceptState = true,
           Transitions = new Dictionary<char, State>()
       };
       public State b = new State()
@@ -77,7 +77,7 @@ public class FA2
       public State c = new State()
       {
           Name = "c",
-          IsAcceptState = false,
+          IsAcceptState = true,
           Transitions = new Dictionary<char, State>()
       };
       public State d = new State()
